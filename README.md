@@ -35,4 +35,4 @@ TODO
 
 License
 ---
-**ONLY FOR LEARNING ! **(Of course I would be very appreciate it if you prefer helping to improve the app) **AND DO NOT SUBMIT IT DIRECTLY AS YOUR HOMEWORK!**
+**ONLY FOR LEARNING !** (Of course I would be very appreciate it if you prefer helping to improve the app) **AND DO NOT SUBMIT IT DIRECTLY AS YOUR HOMEWORK!**
