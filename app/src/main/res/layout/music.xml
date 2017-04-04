@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/musicPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+    <ListView
+        android:id="@+id/musicList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/console"/>
+    <!--<SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/console"
+        />-->
+    <RelativeLayout
+        android:id="@+id/console"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="Welcome to OrangePlayer!"
+            android:gravity="center"
+            android:textSize="26px"/>
+
+        <Button
+            android:id="@+id/mode"
+            android:background="#FFFFFF"
+            android:text="表"
+            android:textSize="30dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toStartOf="@+id/stop"/>
+        <Button
+            android:id="@+id/stop"
+            android:background="@drawable/stopicon"
+            android:scaleType="centerCrop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/play" />
+
+        <Button
+            android:id="@+id/play"
+            android:background="@drawable/playicon"
+            android:scaleType="centerCrop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>
