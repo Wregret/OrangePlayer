@@ -9,8 +9,8 @@ A simple and rough media player for Android practice.
 
 Feature
 ---
-+ Searching media file in all external storage of your phone.
-+ Three mode of playing: list cycle, single cycle and random play.
++ Searching media files in all external storage of your phone.
++ Three modes of playing: list cycle, single cycle and random play.
 + In "MUSIC" page, sliding the brand of on-playing music's name can switches to the next song or the pre-song.
 
 Practice Point
@@ -35,4 +35,4 @@ TODO
 
 License
 ---
-**ONLY FOR LEARNING !** (Of course I would be very appreciate it if you prefer helping to improve the app) **AND DO NOT SUBMIT IT DIRECTLY AS YOUR HOMEWORK!**
+**ONLY FOR LEARNING !** (Of course I would appreciate it if you prefer helping to improve the app) **AND DO NOT SUBMIT IT DIRECTLY AS YOUR HOMEWORK!**
