@@ -5,7 +5,9 @@ Description
 ---
 A simple and rough media player for Android practice.
 
-
+Build Environment
+---
+Android Studio(min API level is 19)
 
 Feature
 ---
