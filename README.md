@@ -27,6 +27,12 @@ BUG
 ---
 + The player will play the second song instead of the first(as it should do) when you press the "play" button for the first time you open this app. 
 
+Update
+---
++ 1.0.1
+	+ Fixed the bug that the music player will keep playing when you open a video file.
+	+ Fixed the bug that when you switch song by sliding the brand of song's name in the random mode, the music player will still obey the list cycle order.
+
 TODO
 ---
 + A better UI performance

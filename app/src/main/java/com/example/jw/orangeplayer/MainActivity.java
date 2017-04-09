@@ -209,8 +209,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void nextMusic(){
-        if(++currentItem>=musicList.size()){
-            currentItem=0;
+        if(modeNumber==3){
+            currentItem=(int)(Math.random()*(musicList.size()-1));
+        }else {
+            if (++currentItem >= musicList.size()) {
+                currentItem = 0;
+            }
         }
         playMusic(musicList.get(currentItem).get("path"));
     }
@@ -226,7 +230,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void playVideo(String path){
-        //// TODO: 17-4-3
+        if(mediaPlayer.isPlaying()){
+            mediaPlayer.stop();
+        }
         Intent intent=new Intent(MainActivity.this,VideoPlayer.class);
         intent.putExtra("path",path);
         startActivity(intent);
